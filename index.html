@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>汉堡</title>
+</head>
+
+<body>
+
+   <header class="header" id="header">
+      <div class="nav container">
+         <a href="#" class="nav__logo">
+            <div>
+               <img src="assets/img/logo-burger.svg" alt="image">
+            </div>
+            汉堡
+         </a>
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li>
+                  <a href="#home" class="nav__link active-link">首页</a>
+               </li>
+
+               <li>
+                  <a href="#recipe" class="nav__link">原料</a>
+               </li>
+
+               <li>
+                  <a href="#popular" class="nav__link">热销</a>
+               </li>
+
+               <li>
+                  <a href="#delivery" class="nav__link">详细</a>
+               </li>
+
+               <li>
+                  <a href="#contact" class="nav__link">联系</a>
+               </li>
+            </ul>
+
+            <!-- 关闭按钮 -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-large-line"></i>
+            </div>
+         </div>
+         <!-- 菜单按钮 -->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-fill"></i>
+         </div>
+      </div>
+
+
+   </header>
+
+
+   <main class="main">
+
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <div class="home__data">
+               <h1 class="home__title">最喜欢的<br>汉堡</h1>
+               <p class="home__description">
+                  我们提供地球上最好的汉堡，为烹饪和准备铺平道路，热腾腾的美味汉堡。
+               </p>
+               <a href="#popular" class="button">立即购买</a>
+               <img src="assets/img/sticker-potatoes.svg" alt="image" class="home__sticker">
+            </div>
+            <div class="home__images">
+               <img src="assets/img/home-burger.png" alt="image" class="home__burger">
+               <img src="assets/img/home-dish.png" alt="image" class="home__dish">
+               <img src="assets/img/home-potato.png" alt="image" class="home__ingredient home__potato-1">
+               <img src="assets/img/home-potato.png" alt="image" class="home__ingredient home__potato-2">
+               <img src="assets/img/home-tomato.png" alt="image" class="home__ingredient home__tomato-1">
+               <img src="assets/img/home-tomato.png" alt="image" class="home__ingredient home__tomato-2">
+               <img src="assets/img/home-lettuce.png" alt="image" class="home__ingredient home__lettuce-1">
+               <img src="assets/img/home-lettuce.png" alt="image" class="home__ingredient home__lettuce-2">
+            </div>
+         </div>
+      </section>
+
+
+      <section class="recipe section" id="recipe">
+         <h2 class="section__title">优质原材料</h2>
+         <div class="recipe__container container grid">
+            <!-- <div class="recipe__image">
+               <img src="assets/img/recipe-burger.png" alt="image" class="recipe__img">
+            </div> -->
+            <div class="recipe__data">
+               <div class="recipe__card">
+                  <div class="recipe__box">
+                     <img src="assets/img/recipe-bread.png" alt="image">
+                  </div>
+                  <div>
+                     <h3 class="recipe__title">面包</h3>
+                     <p class="recipe__description">新鲜的面包，烤得很完美。</p>
+                  </div>
+               </div>
+
+
+               <div class="recipe__card">
+                  <div class="recipe__box">
+                     <img src="assets/img/recipe-cheese.png" alt="image">
+                  </div>
+                  <div>
+                     <h3 class="recipe__title">奶酪</h3>
+                     <p class="recipe__description">奶酪，创造美好而健康的未来。</p>
+                  </div>
+               </div>
+
+
+               <div class="recipe__card">
+                  <div class="recipe__box">
+                     <img src="assets/img/recipe-meat.png" alt="image">
+                  </div>
+                  <div>
+                     <h3 class="recipe__title">肉</h3>
+                     <p class="recipe__description">100%纯牛肉，又大又肉。</p>
+                  </div>
+               </div>
+
+
+               <div class="recipe__card">
+                  <div class="recipe__box">
+                     <img src="assets/img/recipe-vegetable.png" alt="image">
+                  </div>
+                  <div>
+                     <h3 class="recipe__title">蔬菜</h3>
+                     <p class="recipe__description">充满自然精髓和有机的蔬菜。</p>
+                  </div>
+               </div>
+
+
+               <div class="recipe__card">
+                  <div class="recipe__box">
+                     <img src="assets/img/recipe-sauces.png" alt="image">
+                  </div>
+                  <div>
+                     <h3 class="recipe__title">酱汁</h3>
+                     <p class="recipe__description">新鲜的酱汁，口感鲜美。</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </section>
+
+
+      <section class="popular section" id="popular">
+         <h2 class="section__title">最畅销的<br>汉堡</h2>
+         <div class="popular__container container grid">
+            <article class="popular__card">
+               <img src="assets/img/popular-burger-chicken.png" alt="image" class="popular__img">
+               <h2 class="popular__title">鸡肉<br>汉堡</h2>
+               <span class="popular__price">￥35</span>
+               <button class="popular__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+            </article>
+
+
+            <article class="popular__card">
+               <img src="assets/img/popular-burger-meat.png" alt="image" class="popular__img">
+               <h2 class="popular__title">牛肉<br>汉堡</h2>
+               <span class="popular__price">￥55</span>
+               <button class="popular__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+            </article>
+
+
+            <article class="popular__card">
+               <img src="assets/img/popular-burger-grill.png" alt="image" class="popular__img">
+               <h2 class="popular__title">大杂烩<br>汉堡</h2>
+               <span class="popular__price">￥65</span>
+               <button class="popular__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+            </article>
+
+
+            <article class="popular__card">
+               <img src="assets/img/popular-burger-classic.png" alt="image" class="popular__img">
+               <h2 class="popular__title">经典<br>汉堡</h2>
+               <span class="popular__price">￥25</span>
+               <button class="popular__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+            </article>
+
+
+            <article class="popular__card">
+               <img src="assets/img/popular-burger-big.png" alt="image" class="popular__img">
+               <h2 class="popular__title">超大<br>汉堡</h2>
+               <span class="popular__price">￥75</span>
+               <button class="popular__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+            </article>
+         </div>
+      </section>
+
+
+      <section class="delivery section" id="delivery">
+         <div class="delivery__container container grid">
+            <div class="deliver__data">
+               <h2 class="section__title">快速送达</h2>
+               <p class="delivery__description">订购您最喜欢的汉堡，我们会在几分钟内将其送到您家门口，保持联系，不要饿着肚子离开
+               </p>
+               <a href="#contact" class="button">联系我们</a>
+               <img src="assets/img/sticker-glass.svg" alt="image" class="delivery__sticker">
+            </div>
+            <img src="assets/img/delivery-burger.png" alt="image" class="delivery__img">
+         </div>
+      </section>
+
+
+      <section class="contact section" id="contact">
+         <div class="contact__container container grid">
+            <h2 class="section__title">联系我们</h2>
+            <div class="contact__contact grid">
+               <div class="contact__data grid">
+                  <div>
+                     <h3 class="contact__title">联系方式</h3>
+                     <div class="contact__social">
+                        <a href="">
+                           <i class="ri-qq-fill"></i>
+                        </a>
+                        <a href="">
+                           <i class="ri-wechat-fill"></i>
+                        </a>
+                        <a href="">
+                           <i class="ri-bilibili-fill"></i>
+                        </a>
+                     </div>
+                  </div>
+                  <div>
+                     <h3 class="contact__title">拨打电话</h3>
+                     <address class="contact__info">+00-987-7654-321 <br>
+                        +00-012345</address>
+                  </div>
+                  <div>
+                     <h3 class="contact__title">地址</h3>
+                     <address class="contact__info">提瓦特-璃月-万民堂<br>
+                     </address>
+                  </div>
+               </div>
+               <div class="contact__image">
+                  <img src="assets/img/contact-man.png" alt="image" class="contact__img">
+               </div>
+            </div>
+            <img src="assets/img/sticker-burger.svg" alt="image" class="contact__sticker-1">
+            <img src="assets/img/sticker-soda.svg" alt="image" class="contact__sticker-2">
+         </div>
+      </section>
+   </main>
+
+
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <a href="#" class="footer__logo">汉堡</a>
+
+         <div class="footer__content grid">
+            <a href="#" class="footer__link">关于我们</a>
+            <a href="#" class="footer__link">联系方式</a>
+            <div class="footer__social">
+               <a href="" target="_blank">
+                  <i class="ri-qq-fill"></i>
+               </a>
+               <a href="" target="_blank">
+                  <i class="ri-wechat-fill"></i>
+               </a>
+               <a href="" target="_blank">
+                  <i class="ri-bilibili-fill"></i>
+               </a>
+            </div>
+         </div>
+      </div>
+
+      <span class="footer__copy">&#169;汉堡版权所有</span>
+   </footer>
+
+   <a href="#" class="scrollup" id="scroll-up">
+      <i style="height: 20px;width: 20px;"></i>
+   </a>
+
+
+   <script src="assets/js/scrollreveal.min.js"></script>
+
+
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>
